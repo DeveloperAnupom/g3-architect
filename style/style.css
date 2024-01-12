@@ -98,6 +98,36 @@ nav h3 {
 .featur {
     color: #FF900E;
 }
+/*  ***** ****** **** **** ****** ***** ******** ******* ****** Feature Style   ***** ****** **** **** ****** ***** ******** ******* ****** */
+
+.enjoy-section{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.enjoy-text {
+    width: 50%;
+}
+.enjoy-title {
+    font-size: 2em;
+    margin: 10px 0px;
+}
+.enjoy-description {
+    font-size: 1em;
+    margin: 10px 0px;
+}
+.enjoy-content-box p {
+    font-size: 0.8em;
+    margin: 5px 0px;
+}
+.enjoy-image {
+    width: 50%;
+}
+.enjoy-image img {
+    width: 100%;
+}
 
 /* ***** ******** ****** ****** ****  ***  ****** ***** Responsive Design ***** ******** ****** ****** ****  ***  ****** *****  */
 
@@ -127,4 +157,15 @@ nav h3 {
     .feature-images {
         width : 95%
     }
+    .enjoy-section{
+        width: 95%;
+        flex-direction: column-reverse;
+    }
+    .enjoy-text {
+        width: 95%;
+    }
+    .enjoy-image {
+        width: 95%;
+    }
+    
 }
