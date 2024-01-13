@@ -152,9 +152,34 @@ nav h3 {
     text-align: center;
     padding: 35px 20px ;
 }
+/* ***** ******** ****** ****** ****  ***  ****** ***** Footer Design ***** ******** ****** ****** ****  ***  ****** *****  */
+footer {
+    width: 80%;
+    margin: 100px auto;
+}
+.footer-title {
+    font-size: 2em;
+    text-align: center;
+}
+.footer-description {
+    font-size: 0.9em;
+    line-height: 20px;
+    padding: 10px 0px;
+    text-align: center 
+}
+.footer-images {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-images img {
+  width: 10%;
+}
 /* ***** ******** ****** ****** ****  ***  ****** ***** Responsive Design ***** ******** ****** ****** ****  ***  ****** *****  */
 
 @media screen and (max-width:576px) {
+
     .header-container {
         width: 90%;
     }
@@ -199,5 +224,15 @@ nav h3 {
     .fact-section-description {
         width: 80%;
     }
-   
+   .footer {
+    width: 70%;
+    }
+    .footer-images {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 80px;
+    }
+    .footer-images img {
+        width: 40%;
+      }
 }
